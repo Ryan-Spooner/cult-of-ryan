@@ -16,24 +16,26 @@ strong {
 	font-weight: bold;
 }
 
-body header h1 {
-	font-size: 3rem;
-	color: #9C8671; /* color-complement-1 */
-	font-family: 'Indie Flower', cursive;
-}
-
 body {
 	background-color: #18292B; /* color-primary-0 */
-	padding: 2rem 4rem;
+	/*padding: 2rem 4rem;*/
 	font-size: 1.3rem;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100%;
+}
+
+body header h1 {
+	font-size: 3rem;
+	color: #9C8671; /* color-complement-1 */
+	font-family: 'Indie Flower', cursive;
+	margin-left: 2rem;
 }
 
 main {
 	flex: 1;
+	/*flex-grow: 1;*/
 }
 
 main aside {
@@ -49,6 +51,7 @@ main aside p {
 }
 
 main section {
+	margin: 1rem;
 	float: left;
 	width: 60%;
 	background-color: rgba(9, 14, 30, 0.6); /* color-secondary-1-4 */
@@ -63,8 +66,20 @@ main section p {
 	padding: 1rem 2rem;
 }
 
-main section ul {
-	/*padding: 1rem 3rem;*/
+.content {
+	padding: 1rem 3rem;
+}
+
+header {
+	flex-shrink: 0;
+}
+
+footer {
+	color: white;
+	flex-shrink: 0;
+	text-align: center;
+	width: 100%;
+	background-color: #111;
 }
 
 header nav {
