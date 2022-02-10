@@ -7,6 +7,10 @@ head, title, meta, script, link, style, base {
 	display: none;
 }
 
+h2, h3, h4 {
+	
+}
+
 /* Default styling for emphasis and strong elements */
 em {
 	font-style: italic;
