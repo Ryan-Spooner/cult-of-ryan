@@ -22,7 +22,7 @@ strong {
 }
 
 body {
-	background-color: #18292B; /* color-primary-0 */
+	background-color: #0E2325; /* color-primary-0 */
 	/*padding: 2rem 4rem;*/
 	font-size: 1.3rem;
 	display: flex;
@@ -30,11 +30,37 @@ body {
 	min-height: 100vh;
 }
 
+.banner {
+	display: flex;
+	flex-direction: row;
+	align-self: baseline;
+	justify-content: space-between;
+}
+
 body header h1 {
 	font-size: 3rem;
 	color: #9C8671; /* color-complement-1 */
 	font-family: 'Indie Flower', cursive;
 	margin-left: 2rem;
+	background-color: black;
+	border-radius: 50%;
+}
+
+#login_section {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	align-items: flex-end;
+	margin-right: 2rem;
+}
+
+.login {
+	text-align: center;
+	color: white;
+	font-family: 'Zen Kurenaido', sans-serif;
+	background-color: #455D5F;
+	border-radius: .5rem;
+	width: 6rem;
 }
 
 main {
@@ -84,7 +110,7 @@ footer {
 	flex-shrink: 0;
 	text-align: center;
 	width: 100%;
-	background-color: #333333;
+	background-color: #1b1b1b;
 }
 
 header h1 a {
